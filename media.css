@@ -1,0 +1,47 @@
+@media screen and (max-width: 1024px) {
+    footer .contacts {
+        flex-direction: column;
+        width: fit-content;
+        margin: auto;
+    }
+
+}
+@media screen and (max-width: 950px) {
+    .someCategories>.category {
+        width: 48%;
+    }
+    .product {
+        width: 48%;
+    }
+    footer .links {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .links a {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #topBar>div {
+        align-items: center;
+        flex-direction: column;
+    }
+    #navBar > div {
+        padding: 0;
+        flex-direction: column;
+    }
+    #navBar a {
+        text-align: center;
+        width: 100%;
+    }
+
+    .someCategories>.category {
+        width: 98%;
+        align-items: center;
+    }
+    .product {
+        width: 98%;
+        align-items: center;
+    }
+}
